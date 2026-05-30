@@ -308,27 +308,27 @@ ${data.name}`;
 
 function fillSampleData() {
   const sample = {
-    name: "Sandeep Kumar",
-    role: "AI / ML Intern",
-    email: "sandeep@example.com",
-    phone: "+91 98765 43210",
-    location: "Hyderabad, India",
-    linkedin: "linkedin.com/in/sandeep",
-    website: "github.com/sandeep",
-    degree: "B.Tech in Computer Science",
-    college: "ABC Institute of Technology",
-    year: "2027",
-    grade: "8.4 CGPA",
-    certs: "Python for Data Science, Machine Learning Basics, Responsive Web Design",
-    projectTitle: "AI-Powered Resume Builder",
-    projectTech: "HTML, CSS, JavaScript, Local Storage, AI-style Rules",
-    projectDetails: "Built a responsive resume builder with live preview, ATS keyword checking, template customization, and export tools for internship applicants.",
-    achievements: "Organized a coding workshop for 40 students and completed multiple internship-focused portfolio projects.",
-    experienceTitle: "College Coding Club - Web Team Member",
-    experienceDetails: "Collaborated with peers to create event pages, improve mobile layouts, and publish updates under deadlines.",
-    softSkills: "Communication, Teamwork, Adaptability, Leadership",
-    languages: "English, Hindi, Telugu",
-    jobDescription: "Looking for an AI ML intern with Python, machine learning, data preprocessing, pandas, model evaluation, Git, and problem solving skills."
+  name: "Sunil Kumar",
+  role: "Software Development Intern",
+  email: "sunilkumar@example.com",
+  phone: "+91 XXXXXXXXXX",
+  location: "Hingona, India",
+  linkedin: "linkedin.com/in/sunilkumar",
+  website: "github.com/example-sudo",
+  degree: "B.Tech in ELECTRONICS & COMMUNICATION ENGINEERING",
+  college: "Your College Name",
+  year: "2027",
+  grade: "8.0 CGPA",
+  certs: "Python, Web Development, Git & GitHub",
+  projectTitle: "Smart Attendance System",
+  projectTech: "HTML, CSS, JavaScript, Firebase",
+  projectDetails: "Developed a QR-based smart attendance system with admin dashboard and attendance analytics.",
+  achievements: "Built multiple portfolio projects and actively learning full stack development.",
+  experienceTitle: "Student Developer",
+  experienceDetails: "Worked on web applications and AI-based projects.",
+  softSkills: "Communication, Teamwork, Problem Solving",
+  languages: "English, Hindi"
+};
   };
   Object.entries(sample).forEach(([id, sampleValue]) => {
     if ($(id)) $(id).value = sampleValue;
